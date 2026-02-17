@@ -12,6 +12,5 @@ class FlatsController < ApplicationController
     @flat = @flats.find do |flat|
       flat["id"] == params[:id].to_i
     end
-    # raise
   end
 end
